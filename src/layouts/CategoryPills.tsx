@@ -10,7 +10,7 @@ type CategoryPillProps = {
 
 const TRANSLATE_AMOUNT = 200;
 
-const categoryPills = ({
+const CategoryPills = ({
   categories,
   selectedCategory,
   onSelect,
@@ -100,4 +100,4 @@ const categoryPills = ({
   );
 };
 
-export default categoryPills;
+export default CategoryPills;
